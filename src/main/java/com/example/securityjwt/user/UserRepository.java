@@ -5,6 +5,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+/**
+ * @author vienlv
+ */
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
